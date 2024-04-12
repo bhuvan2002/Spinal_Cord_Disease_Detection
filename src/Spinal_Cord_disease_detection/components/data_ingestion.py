@@ -3,7 +3,7 @@ import urllib.request as request
 import zipfile
 from Spinal_Cord_disease_detection import logger
 from Spinal_Cord_disease_detection.utils.common import get_size
-from Spinal_Cord_disease_detection.entity.coonfig_entity import DataIngestionConfig
+from Spinal_Cord_disease_detection.entity.config_entity import DataIngestionConfig
 from pathlib import Path
 
 class DataIngestion:
